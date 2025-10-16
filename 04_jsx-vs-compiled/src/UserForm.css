@@ -1,0 +1,73 @@
+.user-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-form h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.success-message {
+  text-align: center;
+}
+
+.success-message h3 {
+  color: #28a745;
+  margin-bottom: 16px;
+}
+
+.success-message p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.success-message strong {
+  color: #333;
+}
+
+.success-message button {
+  margin-top: 20px;
+}
